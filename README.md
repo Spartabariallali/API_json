@@ -11,7 +11,10 @@
 - data is stored in key:value pairs 
 
 ```bash Data is in name/value pairs
-Data is separated by commas
-Curly braces hold objects
-Square brackets hold arrays```
+- Data is separated by commas
+- Curly braces hold objects
+- Square brackets hold arrays
+
+
+
 

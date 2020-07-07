@@ -24,12 +24,11 @@ with open("new_json_file.json","w") as jsonfile:
     # the dump method takes two args : the first = dictionary, second = the jsonfile(fileobject)
     #"enter the name of the file", permission type
 
-with open("new_json_file.json") as jsonfile: # Decoding
-# Reading from the file we just created
-    car = json.load(jsonfile) # storing data from file to car variable
-    print(type(car))    # checking the type of data again
-    print(car["name"])    # to get the value stored in key called name
-    print(car["engine"])  # to get the value of second key value pair
+with open("new_json_file.json") as jsonfile:  # Decoding
+    # Reading from the file we just created
+    car = json.load(jsonfile)  # storing data from file to car variable
+    print(type(car)) # Checking the type of the data again
+    print(car['name']) # To get the value stored in key called name
+    print(car['engine']) # To get the value of second key value pair
 
-# we have decoded our file new_json.json that we created earlier
-# we have used dumps(), dump() and load() methods
+    
