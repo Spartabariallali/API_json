@@ -18,7 +18,9 @@ print(type(car_data_json_string)) # returns <class string>
 # create a jsonfile with writing permissions 
 
 with open("new_json_file.json","w") as jsonfile:
-    json.dump(car_data, jsonfile)
+    json.dump(car_data, jsonfile) # 
+
+    
     # ENCODING and writing into json file
     # "w" gives write permissions
     # the dump method takes two args : the first = dictionary, second = the jsonfile(fileobject)
